@@ -38,7 +38,7 @@
 (setq vivado-keywords
       '(("\\<\\(get_files\\|get_clocks\\|get_cells\\|get_pins\\|get_ports\\|get_nets\\)\\>" . font-lock-builtin-face)
         ("\\<\\(create_generated_clock\\|create_clock\\|set_input_jitter\\|set_input_delay\\|set_output_delay\\)\\>" . font-lock-builtin-face)
-        ("\\<\\(set_property\\|set_clock_groups\\|set_multicycle_path\\|set_false_path\\|set_max_delay\\)\\>" . font-lock-builtin-face)
+        ("\\<\\(place_ports\\|set_property\\|set_clock_groups\\|set_multicycle_path\\|set_false_path\\|set_max_delay\\)\\>" . font-lock-builtin-face)
         ("\\<\\(create_pblock\\|add_cells_to_pblock\\|resize_pblock\\)\\>" . font-lock-keyword-face)
         ("\\<\\(MAX_FANOUT\\|CLOCK_DEDICATED_ROUTE\\|IOSTANDARD\\|DRIVE\\|DIFF_TERM\\|VCCAUX_IO\\|SLEW\\|FAST\\|SLOW\\|DCI_CASCADE\\)\\>" . font-lock-constant-face)
         ("\\<\\(LVCMOS33\\|LVCMOS25\\|LVCMOS15\\|LVCMOS18\\|LVDS_25\\|LVDS\\)\\>" . font-lock-constant-face)
